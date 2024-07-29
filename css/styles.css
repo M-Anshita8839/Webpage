@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+    
+    
+img{
+    max-width: 100%;
+   }
+
+
+/* --------------header-------------- */
+.image{
+    max-height: 150px;
+}
+
+header{
+    position: relative;
+    z-index: 1;
+    background-color: #333;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    min-width: 200px;
+    background: #fff;
+    text-align: center;
+}
+.items{
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.items a{
+    color: #fff
+}
+
+.navbar{
+    padding-bottom: 0;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 20px;
+}
+/* -------------banner-section-------- */
+.bannersection{
+    position: relative;
+  
+}
+.text-box  h1{
+    font-size: 30px;
+}
+.bannercaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: #555a78;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+ .line{
+    flex: 1;
+    border-bottom: 1px solid black;
+ }
+
+    /* ----------services----------------- */
+.serviceslist{
+    padding: 40px;
+    background-color: whitesmoke;
+   
+}
+.services img{
+   max-height: 70px;
+}
+.content h2{
+    font-size: 30px;
+    color: #555a78;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    padding: 20px;
+}
+
+.services{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+}
+
+button{
+    margin: 30px;
+    margin-top: 0;
+    background-color: #555a78;
+    color: #fff;
+    font-size: small;
+}
+
+button:hover{
+   
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #555a78;
+}
+.text{
+    font-size: smaller;
+    margin: 0 20px;
+}
+.information img{
+    height: 250px;
+}
+.information h2{
+    font-size: 30px;
+   
+}
+.information h2 {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555a78;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555a78;
+}
+   /* ---------news-section------------ */
+.news-section{
+    background-color: whitesmoke;
+}
+.news-section .img2{
+    max-height: 340px;
+    width: 100%;
+}
+.news-section h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555a78;
+    padding-top: 20px;
+    padding: 20px;
+}
+.news-section .img1{
+    background-color: #b93a41;
+    color: #fff;
+    padding: 20px;
+   height: 100%;
+   display: flex;
+}
+.date .para{
+    flex: 1;
+}
+.date{
+    padding: 40px;
+}
+.para{
+    padding: 20px;
+    padding-top: 60px;
+}
+
+
+.line-container{
+    display: flex;
+    padding-top: 10px;
+}
+.lines{
+    flex: 1;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.hello{
+    padding-top: 20px;
+}
+button{
+    margin:50px;
+}
+/* -----------------news-letter--------------- */
+.news-letter{
+    background-color: #555a78;
+    color: #fff;
+    padding: 50px;
+    padding-top: 30px;
+}
+.news-letter p{
+    color: #fff;
+    font-size: small;
+    padding: 20px;
+}
+.subscribe{
+    padding-top: 30px;
+}
+.subscribe a{
+    color: #fff;
+}
+     /* -------adresss----------- */
+.address{
+    background-color: #b93a41;
+    color: white;
+}
+.left{
+    padding: 10px;
+}
+.right{
+    text-align: end;
+    padding: 10px;
+}
+/* --------about------- */
+
+.about{
+    padding: 30px;
+}
+.about h1{
+    padding: 20px;
+    color: #555a78;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inner-banner{
+   max-height: 100px;
+   width:300px;
+}
+.inner-banner h1{
+    padding: 10px;
+}
+   
+    
